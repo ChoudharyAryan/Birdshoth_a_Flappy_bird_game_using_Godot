@@ -458,6 +458,8 @@ autostart = true
 [node name="Label" type="Label" parent="."]
 offset_right = 176.0
 offset_bottom = 27.0
+theme_override_colors/font_color = Color(0.223529, 0.992157, 0, 1)
+theme_override_font_sizes/font_size = 30
 script = SubResource("GDScript_0kxqf")
 
 [connection signal="body_entered" from="Bird/Area2D" to="Bird" method="_on_area_2d_body_entered"]
